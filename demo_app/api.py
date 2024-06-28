@@ -3,3 +3,7 @@ def test():
 
 def another_test():
     print("another change")
+
+@frappe.whitelist()
+def test_test():
+    print("change")
